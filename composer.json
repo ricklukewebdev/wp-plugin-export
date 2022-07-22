@@ -7,10 +7,15 @@
         "name": "Rick Luke",
         "email": "mail@rickluke.com"
     }],
-    "require": {},
+    "require": {
+        "php": "^7.1|^8.0|^8.1"
+    },
     "autoload": {
         "psr-4": {
             "RickLuke\\PluginExport\\": "src/"
         }
-    }
+    },
+    "bin": [
+        "plugin-export"
+    ]
 }
