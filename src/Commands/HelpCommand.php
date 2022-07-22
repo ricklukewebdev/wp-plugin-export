@@ -2,10 +2,12 @@
 
 namespace RickLuke\PluginExport\Commands;
 
+use RickLuke\PluginExport\Contracts\CommandContract;
+
 /**
  * The Help command prints the help instructions.
  */
-class HelpCommand
+class HelpCommand implements CommandContract
 {
     /**
      * Execute the help command.
