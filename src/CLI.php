@@ -60,8 +60,7 @@ class CLI implements ValidatorContract
     {
         if ($this->validate()) {
             $class = '\RickLuke\PluginExport\Commands\\' . $this->commandClass;
-            $command = new $class($this->arguments);
-            return $command->execute();
+            return $class::execute($this->arguments);
         }
     }
 
