@@ -1,0 +1,16 @@
+{
+    "name": "rick-luke/wp-plugin-export",
+    "description": "Export folders and files to an export folder.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [{
+        "name": "Rick Luke",
+        "email": "mail@rickluke.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RickLuke\\PluginExport\\": "src/"
+        }
+    }
+}
