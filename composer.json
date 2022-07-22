@@ -1,5 +1,5 @@
 {
-    "name": "rick-luke/wp-plugin-export",
+    "name": "ricklukewebdev/wp-plugin-export",
     "description": "Export folders and files to an export folder.",
     "type": "composer-plugin",
     "license": "MIT",
