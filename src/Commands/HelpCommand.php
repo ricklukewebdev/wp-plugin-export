@@ -44,11 +44,14 @@ class HelpCommand
         echo "to an export directory. Ideal for exporting a plugin without all\n";
         echo "the messy files which are not required for the plugin to work.\n\n";
 
-        echo "\e[33mUsage:\e[0m\n";
-        echo "  <desired_folder_name>\n\n";
+        echo "\e[33mMain usage:\e[0m\n";
+        echo "  export <desired_folder_name>\n\n";
 
         echo "\e[33mArguments:\e[0m\n";
         echo "  \e[92mdesired_folder_name\e[0m\tThe desired folder name to which the files will be exported. Should not exist yet.\n\n";
+
+        echo "\e[33mOther commands:\e[0m\n";
+        echo "  \e[92minstall\e[0m\t        Create the .wp-export-file.\n\n";
 
         echo "\e[33mRequirements:\e[0m\n\n";
 

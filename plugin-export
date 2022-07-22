@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+use RickLuke\PluginExport\CLI;
+
+if (file_exists(__DIR__ . '/vendor/autoload.php')) {
+    require __DIR__ . '/vendor/autoload.php';
+} else {
+    require __DIR__ . '/../../autoload.php';
+}
+
+try {
+    $cli = new CLI();
+
+    return $cli->execute($argv);
+} catch (\Exception $e) {
+    var_dump($e->getMessage());
+    exit;
+}
