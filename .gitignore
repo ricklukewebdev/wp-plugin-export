@@ -1,3 +1,4 @@
 .vscode
-exports
 .wp-export
+exports
+vendor
