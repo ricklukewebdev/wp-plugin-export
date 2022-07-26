@@ -1,4 +1,5 @@
 .vscode
 .wp-export
+composer.lock
 exports
 vendor
